@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding:0;
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left:500px;
+	background:#A4A4A4;   
+}
+
+.contenedor{
+	position: absolute;
+	width: 40%;
+	height: 40vh;
+	background: #2EFE2E;
+    border-radius: 30%;
+    box-sizing: border-box;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-content:center;
+    
+}
+
+.usuario{
+
+}
+.subcontenedor{
+	bottom:0;
+	left:20px;
+	position: absolute;
+	align-content: center;
+	margin: left;
+	align-content: center;
+	width: 100%;
+	height: 60%;
+	    align-content:center;
+	
+
+
+}
+.value
+{
+	background:#2ECCFA;
+}
+.h3
+{
+	left: 20px;
+	background: #2ECCFA;
+}
