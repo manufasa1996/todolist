@@ -8,20 +8,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="Style.css">
 	<title>Iniciar sesion</title>
 	<meta charset="utf-8">
 </head>
 <body>
-	<center>
+	<body style="background: #848484">
+
+	<div class="contenedor">
+		
+
+		<!--<center>-->
 		<form method="POST" action="loginProceso.php">
-			<label>Usuario: </label>
+
+			<div class="subcontenedor">
+
+				<label class="Usuario">Usuario: </label>
 			<input type="text" name="txtUsu">
 			<br>
 			<label>Password: </label>
 			<input type="password" name="txtPass">
 			<br>
-			<input type="submit" value="Iniciar sesión">
+            
+            	<input type="submit" value="Iniciar sesión">
+            
+			
+			</div>
+            
 		</form>
-	</center>
+	<!--</center>-->
+	</div> 
+	
+
 </body>
 </html>
