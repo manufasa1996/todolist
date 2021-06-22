@@ -15,17 +15,28 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<link rel="stylesheet" type="text/css" href="Style.css">
 	<title>Lista de alumnos</title>
 	<meta charset="utf-8">
+	
 </head>
 <body>
+	<body style="background:#80FF00;margin:0;
+	
+    width: 600px;
+    color: black; ">
 	<center>
+		<center style="background: #01DFD7;padding: 0 20px 20px 20px;
+    border: 5px solid rgb(77, 75, 75);
+    margin: 0 auto;">
 		<h1>Bienvenido: <?php echo $_SESSION['nombre'] ?></h1>
-		<a href="cerrar.php">Cerrar Sesión</a>
+		<img src="foto.jpg" width="200" height="150">
+	    <br>
+		<a href="cerrar.php">Cerrar Sesión</a>	
 		<h3>Lista de tareas</h3>
 		<table>
 			<tr>
-				<td>Código</td>
+				<td>N Tareas</td>
 				<td>Tareas</td>
 				<td>Editar</td>
 				<td>Eliminar</td>
